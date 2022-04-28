@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="GlobalAutomationTestingFramework">
+        <classes>
+            <class name="com.global.automation.testcases.ShoppingWorkflowTest">
+                <methods>
+                    <include name="addProductToCart"/>
+                    <include name="proceedToCheckout"/>
+                    <include name="removeEveningDressFromCart"/>
+                    <include name="addFadedShortSleeve"/>
+                    <include name="validatePriceForEachProduct"/>
+                    <include name="validateTotalCartPrice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
